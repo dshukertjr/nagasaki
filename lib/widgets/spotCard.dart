@@ -48,6 +48,7 @@ class SpotCard extends StatelessWidget {
                   child: Text(
                     spot.title,
                     style: TextStyle(
+                      fontSize: 18,
                       color: Colors.white,
                     ),
                   ),
