@@ -1,4 +1,4 @@
-package com.example.nagasaki;
+package com.travel.nagasaki;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

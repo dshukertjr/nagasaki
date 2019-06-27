@@ -80,6 +80,24 @@ class SpotPage extends StatelessWidget {
                         ],
                       ),
                     ),
+                    Positioned(
+                      top: MediaQuery.of(context).padding.top + 8,
+                      left: MediaQuery.of(context).padding.left + 8,
+                      child: Container(
+                        decoration: BoxDecoration(
+                            color: Colors.black26, shape: BoxShape.circle),
+                        child: IconButton(
+                          color: Colors.white,
+                          onPressed: () {
+                            Navigator.pop(context);
+                          },
+                          icon: Icon(
+                            Icons.arrow_back,
+                            // color: Colors.white,
+                          ),
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
